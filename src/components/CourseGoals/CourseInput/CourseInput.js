@@ -8,24 +8,28 @@ const CourseInput = props => {
   const [isValid, setIsValid] = useState(true)
 
   const goalInputChangeHandler = event => {
+    if (event.target.value.trim().length > 0) {
+      setIsValid(true)
+    }
     setEnteredValue(event.target.value);
   };
 
   // Using simple validation to sanitize user input
   const formSubmitHandler = event => {
     event.preventDefault();
-    if (enteredValue.trim().length === 0){
+    if (enteredValue.trim().length === 0) {
       setIsValid(false)
-      return; 
+      return;
     }
     props.onAddGoal(enteredValue);
   };
 
+  // using template literal to dynamically change string variable to contain invalid if data input pulls error
   return (
     <form onSubmit={formSubmitHandler}>
-      <div className="form-control">
-        <label style={{color: !isValid ? 'red' : 'black'}}>Course Goal</label>
-        <input style={{borderColor: !isValid ? 'red' : 'black', background: !isValid ? 'salmon' : 'transparent' }} type="text" onChange={goalInputChangeHandler} />
+      <div className={`form-control ${!isValid ? 'invalid': ''}`}>
+        <label >Course Goal</label>
+        <input type="text" onChange={goalInputChangeHandler} />
       </div>
       <Button type="submit">Add Goal</Button>
     </form>
