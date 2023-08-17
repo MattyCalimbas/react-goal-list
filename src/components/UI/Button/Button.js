@@ -10,8 +10,8 @@ import './Button.css';
 // };
 
 // tagged template literal; Button is a method on styled object that is being imported from styled-components
+// styled components create a unique id so styling doesn't affect other components
 const Button = styled.button`
-
   font: inherit;
   padding: 0.5rem 1.5rem;
   border: 1px solid #8b005d;
