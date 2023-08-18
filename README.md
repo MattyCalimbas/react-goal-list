@@ -2,6 +2,8 @@
 
 This is a simple React Goal App that utilizes CSS Modules for styling. This app allows users to manage and keep track of their goals in a visually organized manner.
 
+Deployed Link: https://mattycalimbas.github.io/react-goal-list/
+
 ## Features
 
 - Add new goals with a description.
