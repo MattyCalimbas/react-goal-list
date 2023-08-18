@@ -1,11 +1,11 @@
-# React Task App with CSS Modules
+# React Goal App with CSS Modules
 
-This is a simple React Task App that utilizes CSS Modules for styling. This app allows users to manage and keep track of their tasks in a visually organized manner.
+This is a simple React Goal App that utilizes CSS Modules for styling. This app allows users to manage and keep track of their goals in a visually organized manner.
 
 ## Features
 
-- Add new tasks with a description.
-- Click tasks to delete completed tasks.
+- Add new goals with a description.
+- Click goals to delete completed goals.
 - Stylish and organized UI using CSS Modules.
 
 ## Installation
@@ -17,7 +17,7 @@ This is a simple React Task App that utilizes CSS Modules for styling. This app 
 
 2. Navigate to the project directory.
    ```
-   cd react-task-app-with-css-modules
+   cd react-Goal-app-with-css-modules
    ```
 
 3. Install the required dependencies.
@@ -34,11 +34,9 @@ This is a simple React Task App that utilizes CSS Modules for styling. This app 
 
 ## Usage
 
-1. **Adding Tasks**: Enter a title and optional description for the task in the input field at the top of the page. Click the "Add Task" button to add the task to the list.
+1. **Adding Goals**: Enter a description for the goal in the input field at the top of the page. Click the "Add Goal" button to add the goal to the list.
 
-2. **Marking Tasks as Completed**: Click the checkbox next to a task to mark it as completed. Completed tasks will have a visual indicator.
-
-3. **Deleting Tasks**: To remove a task from the list, click the "Delete" button next to the task.
+2. **Clicking Goals as Completed**: Click the goal to mark it as completed. Completed Goals disappear as a visual indicator.
 
 ## CSS Modules
 
