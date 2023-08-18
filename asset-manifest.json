@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-goal-list/static/css/main.0856ed50.css",
+    "main.js": "/react-goal-list/static/js/main.efadc9aa.js",
+    "index.html": "/react-goal-list/index.html",
+    "main.0856ed50.css.map": "/react-goal-list/static/css/main.0856ed50.css.map",
+    "main.efadc9aa.js.map": "/react-goal-list/static/js/main.efadc9aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0856ed50.css",
+    "static/js/main.efadc9aa.js"
+  ]
+}
